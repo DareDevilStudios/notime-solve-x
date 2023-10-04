@@ -1,15 +1,20 @@
-import Image from 'next/image'
-import React from 'react'
+import React from 'react';
 
-const Question_box = () => {
+const QuestionBox = () => {
+  
   return (
-    <div>
-        <h1>Question_box</h1>
-        <div className="w-full">
-        <Image className='w-full' src="/website_screenshots/question_box.png" alt="Next.js" width={600} height={160} />
-        </div>
+    <div className="px-20 py-5 rounded-[12px] bg-[#0D1418]">
+      <div>
+      <h2 className='font-code text-2xl font-semibold tracking-[0.05em] text-left text-[#FFFCF9]'>
+          STRING, PALINDROME
+        </h2>
+      </div>
+       
+      <div>
+        <p><span className='text-[#1BEFA0]  pt-8'>Query 1 :</span> <span className='text-[#FFFCF9]'>How do you determine if a string is a palindrome? </span></p>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Question_box
+export default QuestionBox;

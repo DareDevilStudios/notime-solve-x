@@ -1,15 +1,27 @@
-import Image from 'next/image'
-import React from 'react'
+import React from 'react';
 
 const DotHeading = () => {
-
-
   return (
-    <>
-        dot_and_heading
-        <Image src="/website_screenshots/dot_and_heading.png" alt="dot_and_heading" width={200} height={50} />
-    </>
-  )
-}
+    <div className="border border-gray-900 p-4 rounded-lg  bg-[#0D1418]" >
+      <div className="flex items-center">
+        {/* First ellipse with color #EF3E36 */}
+        <div className="w-3 h-3 bg-red-500 rounded-full mr-2"></div>
+        
+        {/* Second ellipse with color #EEAA2B */}
+        <div className="w-3 h-3 bg-yellow-500 rounded-full mr-2"></div>
+        
+        {/* Third ellipse with color #1BEFA0 */}
+        <div className="w-3 h-3 bg-green-500 rounded-full mr-2"></div>
 
-export default DotHeading
+        {/* Title on the right */}
+        <h1 className="text-xl font-semibold m1-6">
+          <span className="text-white text-25 font-semibold leading-10	tracking-[0.05em] text-left">
+            TITLE
+          </span>
+        </h1>
+      </div>
+    </div>
+  );
+};
+
+export default DotHeading;
