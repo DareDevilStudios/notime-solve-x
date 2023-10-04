@@ -15,7 +15,7 @@ const page = () => {
                 <DotHeading/>
             </li>
             <li>
-                <Common_Button/>
+                <Common_Button children={'click'} colour="#1BEFA0"/>
             </li>
             <li>
                 <Question_box/>
