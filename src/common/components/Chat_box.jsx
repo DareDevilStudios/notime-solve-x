@@ -8,10 +8,8 @@ const Chat_box = () => {
   return (
     <>
     
+
     <div className= "w-[578px]  bg-[#0D1418] ">
-    
-     
-      
       
       
   <div className="w-[575px] h-[60px] bg-black flex flex-row ">
