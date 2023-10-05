@@ -12,7 +12,7 @@ const PostQuestion = () => {
     <div className="bg-black flex flex-col p-[4rem] text-white">
       <h1 className="text-3xl font-black">Post Your Coding <span className="text-[#1BEFA0]">Query</span></h1>
       <p className="pt-[1rem] text-xs">Submit your coding queries, specify your technology stack, and reward solvers with coins</p>
-      <div className="flex flex-col pt-[3rem] gap-[1.5rem]">
+      <div className="flex flex-col pt-[3rem] gap-[2rem]">
        <DotHeading/> 
        <input type="text" className="bg-[#0D1418] text-xs p-3 rounded-lg border-2 border-gray-800 ..." placeholder="Enter your coding doubt here..."></input>
        <DotHeading/> 
@@ -63,7 +63,9 @@ const PostQuestion = () => {
 <input id="default-range" type="range" value="50" class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer"/>
 
  </div>
- <Common_Button/>
+ <div className="pt-[3rem]">
+ <Common_Button textcolor="black" colour={"bg-[#1BEFA0]"} children={"POST QUERY"}/>
+ </div>
     </div>
   
   )
