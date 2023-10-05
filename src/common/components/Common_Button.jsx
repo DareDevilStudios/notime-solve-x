@@ -5,7 +5,6 @@ import React from 'react'
 const Common_Button = ({textcolour,colour,children}) => {
   return (
     <div>
-        <h1>Common_Button</h1>
         {/* <Image src="/website_screenshots/common_button.png" alt="Next.js" width={200} height={160} /> */}
         {/* <div className="mt-[10px] bg-black h-[40px] w-[200px]">
         <button className={`h-[27px] w-[180px] rounded-sm font-inter m-[6px] text-xs font-bold

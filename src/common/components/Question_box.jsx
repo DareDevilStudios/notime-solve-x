@@ -1,4 +1,5 @@
 import React from 'react';
+import Common_Button from './Common_Button';
 
 const QuestionBox = () => {
   
@@ -11,8 +12,13 @@ const QuestionBox = () => {
       </div>
        
       <div>
-        <p><span className='text-[#1BEFA0]  pt-8'>Query 1 :</span> <span className='text-[#FFFCF9]'>How do you determine if a string is a palindrome? </span></p>
+        <p><span className='text-[#1BEFA0]  pt-8'>Query 1 :</span> <span className='text-[#FFFCF9]'>How do you determine if a string is a palindrome? </span></p>  
       </div>
+      <div>
+      <Common_Button />
+      <Common_Button/>
+      </div>
+      <Common_Button/>
     </div>
   );
 };
