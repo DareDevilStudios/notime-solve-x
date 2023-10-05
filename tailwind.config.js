@@ -8,8 +8,12 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors:{
+        'yellow': '#EEAA2B',
+      },
       fontFamily: {
         'code': ['Source Code Pro', 'monospace'],
+        'poppins': ['Poppins', 'sans'],
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
