@@ -4,6 +4,7 @@ import {IoCodeSlash} from 'react-icons/io5'
 import {RiText} from 'react-icons/ri'
 import {BiLink} from 'react-icons/bi'
 import {BsImages} from 'react-icons/bs'
+import Common_Button from '@/common/components/Common_Button'
 
 const PostQuestion = () => {
   return (
@@ -42,7 +43,7 @@ const PostQuestion = () => {
    </div>
    <DotHeading/> 
    
-          <select className='ml-[3rem] mt-5   p-2.5  text-[8px] text-white w-[18rem]    bg-white   bg-opacity-[12%] rounded '>
+   <select className="p-2.5 text-white w-[18rem]    bg-white   bg-opacity-[12%] rounded ">
             <option>HTML</option>
             <option>Tailwindcss</option>
             <option>Javascript</option>
@@ -54,19 +55,15 @@ const PostQuestion = () => {
           <input
             type="date"
             id="date"
-            class="mt-5 ml-[3rem] block  p-1 pl-6 text-[8px] w-[19rem] text-white bg-white bg-opacity-[12%] rounded calendar-icon-white"
+            class="block px-3 py-1 w-[19rem] text-white bg-white bg-opacity-[12%] rounded calendar-icon-white"
           />
           <DotHeading/> 
           
 
 <input id="default-range" type="range" value="50" class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer"/>
 
-
-
-   
-
-
-      </div>
+ </div>
+ <Common_Button/>
     </div>
   
   )
