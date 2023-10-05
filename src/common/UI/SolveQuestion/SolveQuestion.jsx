@@ -11,8 +11,10 @@ const SolveQuestion = () => {
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora fuga quasi temporibus distinctio corporis quae.
         </p>
         <Filter_questions/>
-        <div className="flex flex-col gap-3">
-          <QuestionBox/>
+        <div className="flex flex-col gap-5">
+
+          <QuestionBox
+          />
           <QuestionBox/>
           <QuestionBox/>
           <QuestionBox/>
