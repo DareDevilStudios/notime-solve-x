@@ -1,6 +1,6 @@
 import React from 'react';
 
-const DotHeading = () => {
+const DotHeading = ({title}) => {
   return (
     <div className="border border-gray-900 p-4 rounded-lg  bg-[#0D1418]" >
       <div className="flex items-center">
@@ -15,8 +15,8 @@ const DotHeading = () => {
 
         {/* Title on the right */}
         <h1 className="text-xl font-semibold m1-6">
-          <span className="text-white text-25 font-semibold leading-10	tracking-[0.05em] text-left">
-            TITLE
+          <span className="text-white text-25 font-semibold leading-10 uppercase tracking-[0.05em] text-left">
+            {title}
           </span>
         </h1>
       </div>
