@@ -8,7 +8,7 @@ const Common_Button = ({textcolour,colour,children}) => {
       
 
        
-        <button className={`${colour} py-1 px-10 m-3 h-9 rounded-md font-semibold text-white shadow-inner`}>{children}</button>
+        <button className={`${colour} py-1 px-10 m-3 h-9 rounded-md font-semibold ${textcolour} shadow-inner`}>{children}</button>
         
         
     </div>

@@ -14,15 +14,15 @@ const QuestionBox = () => {
           <p><span className='text-[#1BEFA0]  pt-8'>Query 1 :</span> <span className='text-[#FFFCF9]'>How do you determine if a string is a palindrome? </span></p>
         </div>
 
-        <div className='flex flex-row'>
-          <Common_Button />
-          <Common_Button />
+        <div className='flex flex-col'>
+          <Common_Button textcolour="text-[#0C0C0C]" colour={"bg-[#FFFCF9]"} children={"25 Coins"} />
+          <Common_Button textcolour="text-[#0C0C0C]" colour={"bg-[#1BEFA0]"} children={"25 Coins"}/>
         </div>
       </div>
-      <div className='flex flex-col'>
-        <Common_Button textcolour="white" colour={"bg-[]"} children={""} />
+      <div className='flex flex-row'>
+        <Common_Button textcolour="text-[#0C0C0C]" colour={"bg-[#EEAA2B]"} children={"25 COINS"} />
 
-        <Common_Button />
+        <Common_Button textcolour="text-[#FFFCF9]" colour={"bg-[#262B30]"} children={"DUE ON 25 OCT"}  />
       </div>
 
 
