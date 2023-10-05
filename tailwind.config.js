@@ -10,6 +10,7 @@ module.exports = {
     extend: {
       fontFamily: {
         'code': ['Source Code Pro', 'monospace'],
+        'poppins': ['Poppins', 'sans'],
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
