@@ -5,7 +5,7 @@ const Filter_questions = () => {
   return (
     <div className="bg-black h-[4rem] my-8">
       <form className="w-full h-full flex items-center gap-12 justify-center">
-          <div class="flex h-full items-center justify-center gap-3  pointer-events-none">
+          <div class="flex  items-center justify-center gap-3  pointer-events-none">
             <svg
               class="w-2.5 h-4 text-gray-500"
               aria-hidden="true"

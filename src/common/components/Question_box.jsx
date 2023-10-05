@@ -1,31 +1,49 @@
-import React from 'react';
-import Common_Button from './Common_Button';
-
+import React from "react";
+import Common_Button from "./Common_Button";
 
 const QuestionBox = () => {
-
   return (
-    <div className="px-20 py-5 rounded-[12px] bg-[#0D1418]">
-      <div className='flex flex-row justify-between'>
+    <div className="px-20 py-5 rounded-[12px] bg-[#0D1418] flex flex-row justify-between w-full">
+      <div className="flex flex-col justify-between ">
         <div>
-          <h2 className='font-code text-2xl font-semibold tracking-[0.05em] text-left text-[#FFFCF9]'>
+          <h2 className="font-code text-2xl font-semibold tracking-[0.05em] text-left text-[#FFFCF9]">
             STRING, PALINDROME
           </h2>
-          <p><span className='text-[#1BEFA0]  pt-8'>Query 1 :</span> <span className='text-[#FFFCF9]'>How do you determine if a string is a palindrome? </span></p>
+          <p>
+            <span className="text-[#1BEFA0]  pt-8">Query 1 :</span>{" "}
+            <span className="text-[#FFFCF9]">
+              How do you determine if a string is a palindrome?{" "}
+            </span>
+          </p>
         </div>
+        <div className="flex flex-row gap-3">
+        <Common_Button
+          textcolour="text-[#0C0C0C]"
+          colour={"bg-[#EEAA2B]"}
+          children={"25 COINS"}
+        />
 
-        <div className='flex flex-col'>
-          <Common_Button textcolour="text-[#0C0C0C]" colour={"bg-[#FFFCF9]"} children={"25 Coins"} />
-          <Common_Button textcolour="text-[#0C0C0C]" colour={"bg-[#1BEFA0]"} children={"25 Coins"}/>
+        <Common_Button
+          textcolour="text-[#FFFCF9]"
+          colour={"bg-[#262B30]"}
+          children={"DUE ON 25 OCT"}
+        />
+      </div>
+
+       
+      </div>
+      <div className="flex flex-col gap-5">
+          <Common_Button
+            textcolour="text-[#0C0C0C]"
+            colour={"bg-[#FFFCF9]"}
+            children={"VIEW MORE"}
+          />
+          <Common_Button
+            textcolour="text-[#0C0C0C]"
+            colour={"bg-[#1BEFA0]"}
+            children={"SOLVE QUERY"}
+          />
         </div>
-      </div>
-      <div className='flex flex-row'>
-        <Common_Button textcolour="text-[#0C0C0C]" colour={"bg-[#EEAA2B]"} children={"25 COINS"} />
-
-        <Common_Button textcolour="text-[#FFFCF9]" colour={"bg-[#262B30]"} children={"DUE ON 25 OCT"}  />
-      </div>
-
-
     </div>
   );
 };
