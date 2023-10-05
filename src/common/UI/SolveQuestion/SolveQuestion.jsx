@@ -24,7 +24,7 @@ const SolveQuestion = () => {
           <QuestionBox/>
           <QuestionBox/>
           <QuestionBox/>
-          <div className='flex gap-[5rem]'>
+          <div className='flex gap-[3rem] py-7 w-full'>
           <Common_Button  textcolour="text-[#0C0C0C]"
             colour={"bg-[#1BEFA0]"}
             children={"SOLVE QUERY"}/>
