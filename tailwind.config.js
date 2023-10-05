@@ -8,6 +8,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors:{
+        'yellow': '#EEAA2B',
+      },
       fontFamily: {
         'code': ['Source Code Pro', 'monospace'],
         'poppins': ['Poppins', 'sans'],
