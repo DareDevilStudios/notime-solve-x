@@ -3,12 +3,14 @@ import React from "react";
 import { BsFillSendFill } from "react-icons/bs";
 import { BsThreeDotsVertical } from "react-icons/bs";
 import { BsThreeDots } from "react-icons/bs";
+import Common_Button from "./Common_Button";
 
 const Chat_box = () => {
   return (
     <>
-      <div className="w-[578px]  bg-[#0D1418] ">
-        <div className="w-[575px] h-[60px] bg-black flex flex-row ">
+      <div className="bg-[#0D1418] w-full gap-4 ">
+        <div className="h-[60px] bg-black flex justify-between">
+          <div className="flex">
           <Image
             className=" ml-5 h-[2.5rem] mt-3"
             src="/website_screenshots/person.png"
@@ -16,18 +18,22 @@ const Chat_box = () => {
             width={35}
             height={10}
           />
-
+          
+          
           <p className="text-white text-xl  ml-3  mt-2">Harold Das</p>
           <p className="text-white text-xs mt-[2rem] mx-[-6rem]  ">
             @harold_das
           </p>
-          <BsThreeDotsVertical className=" w-[3rem] fill-white ml-[30rem]  mt-[1rem]" />
+          </div>
+          <div>
+          <BsThreeDotsVertical className=" w-[3rem] fill-white " />
+          </div>
         </div>
         <div className="w-[5rem] h-[1.5rem] bg-gray-800 mt-[12rem]  rounded-xl text-white mx-auto my-auto pt-0.5 text-center text-xs ">
           Today
         </div>
-        <div className="w-[25rem] h-[2.5rem] bg-[#1BEFA0] ml-[10rem] rounded-md mt-[2.5rem] pl-3 pt-2">
-          Found a Solution!
+        <div className="flex justify-end">
+          <Common_Button children="found a solution" colour="#1BEFA0" />
         </div>
         <div className="w-[5rem] h-[2.5rem] mb-[1.5rem] bg-gray-800 rounded ml-[1rem] mt-[2.5rem]">
           <BsThreeDots className="fill-white w-[3rem] my-auto mx-auto h-[2.5rem]" />
