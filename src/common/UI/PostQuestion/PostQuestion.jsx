@@ -13,9 +13,9 @@ const PostQuestion = () => {
       <h1 className="text-3xl font-black">Post Your Coding <span className="text-[#1BEFA0]">Query</span></h1>
       <p className="pt-[1rem] text-xs">Submit your coding queries, specify your technology stack, and reward solvers with coins</p>
       <div className="flex flex-col pt-[3rem] gap-[2rem]">
-        <DotHeading />
+        <DotHeading title="TITLE"/>
         <input type="text" className="bg-[#0D1418] text-xs p-3 rounded-lg border-2 border-gray-800 ..." placeholder="Enter your coding doubt here..."></input>
-        <DotHeading />
+        <DotHeading title="DESCRIPTION"/>
 
 
         <div class="w-full mb-4 border-2 border-gray-800 rounded-lg bg-[#262B30]">
@@ -41,7 +41,7 @@ const PostQuestion = () => {
             <textarea id="editor" rows="8" class="block w-full px-0 text-sm text-gray-800 bg-[#0D1418] border-0" placeholder="Provide additional context or details about your doubt" required></textarea>
           </div>
         </div>
-        <DotHeading />
+        <DotHeading title="LANGUAGE / TECH STACK"/>
 
         <select className="p-2.5 text-white w-[18rem]    bg-white   bg-opacity-[12%] rounded ">
           <option>HTML</option>
@@ -51,13 +51,13 @@ const PostQuestion = () => {
           <option>React</option>
           <option>next</option>
         </select>
-        <DotHeading />
+        <DotHeading title="DUE TIME"/>
         <input
           type="date"
           id="date"
           class="block px-3 py-1 w-[19rem] text-white bg-white bg-opacity-[12%] rounded calendar-icon-white"
         />
-        <DotHeading />
+        <DotHeading title="REWARD YOUR SOLVER"/>
 
 
         <input id="default-range" type="range" value="50" class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer" />
