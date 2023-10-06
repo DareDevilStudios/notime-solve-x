@@ -7,6 +7,7 @@ import leftImage from "../../../../public/Group.svg";
 import rightImage from "../../../../public/Windows.svg";
 // import behindImage from "../../../../public/Group-1.svg";
 import DotHeading from "@/common/components/DotHeading";
+import Link from "next/link";
 import { useState } from "react";
 import Common_Button from "@/common/components/Common_Button";
 
@@ -58,18 +59,22 @@ const HomePage = () => {
             </p>
             </div>}
             {showPostSolve && <div className="flex justify-around">
-              <Common_Button
-                colour={"bg-[#1BEFA0]"}
-                textcolour={"text-[#0C0C0C]"}
-              >
-                SOLVE
-              </Common_Button>
-              <Common_Button
-                colour={"bg-[#EEAA2B]"}
-                textcolour={"text-[#0C0C0C]"}
-              >
-                POST
-              </Common_Button>
+              <Link href="/solve-question">
+                <Common_Button
+                  colour={"bg-[#1BEFA0]"}
+                  textcolour={"text-[#0C0C0C]"}
+                >
+                  SOLVE
+                </Common_Button>
+              </Link>
+              <Link href="/post-question">
+                <Common_Button
+                  colour={"bg-[#EEAA2B]"}
+                  textcolour={"text-[#0C0C0C]"}
+                >
+                  POST
+                </Common_Button>
+              </Link>
             </div>}
           </div>
           <Image src={rightImage}></Image>
