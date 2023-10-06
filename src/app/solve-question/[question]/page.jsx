@@ -1,8 +1,12 @@
+import Individual from '@/common/UI/SolveQuestion/individual_questions/individual'
 import React from 'react'
 
 const page = ({params}) => {
   return (
-    <div>question : {params.question}</div>
+    <div>
+      <Individual/>
+    </div>
+   
   )
 }
 

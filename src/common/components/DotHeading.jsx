@@ -8,7 +8,7 @@ const DotHeading = ({title}) => {
         <div className="w-3 h-3 bg-red-500 rounded-full mr-2"></div>
         
         {/* Second ellipse with color #EEAA2B */}
-        <div className="w-3 h-3 bg-yellow-500 rounded-full mr-2"></div>
+        <div className="w-3 h-3 bg-yellow rounded-full mr-2"></div>
         
         {/* Third ellipse with color #1BEFA0 */}
         <div className="w-3 h-3 bg-green-500 rounded-full mr-2"></div>
