@@ -9,7 +9,7 @@ import DotHeading from "./DotHeading";
 const Chat_box = () => {
   return (
     <>
-      <div className="bg-[#0D1418] w-full gap-4 ">
+      <div className="bg-[#0D1418] w-full gap-4">
         <div className="">
           <DotHeading />
         </div>
@@ -45,11 +45,13 @@ const Chat_box = () => {
             </svg>
           </div>
         </div>
-        <div className="h-full">
-          <div className="w-[5rem] h-[1.5rem] bg-gray-800 rounded-xl text-white mx-auto my-auto pt-0.5 text-center text-xs ">
-            Today
+        <div className="h-full flex flex-col justify-between">
+          <div className="flex justify-center my-10">
+            <h1 className="w-max text-white text-center text-xs bg-gray-800 px-3 py-1 rounded-xl">
+              Today
+            </h1>
           </div>
-          <div className="flex justify-end w-1/2">
+          <div className="w-4/6 self-end">
             <Common_Button children="found a solution" colour="bg-[#1BEFA0]" />
           </div>
           <div className="w-[5rem] h-[2.5rem] mb-[1.5rem] bg-gray-800 rounded ml-[1rem] mt-[2.5rem]">

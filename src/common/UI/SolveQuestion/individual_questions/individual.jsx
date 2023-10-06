@@ -1,11 +1,12 @@
 import Chat_box from "@/common/components/Chat_box";
 import Common_Button from "@/common/components/Common_Button";
+import Disclaimer from "@/common/components/Disclaimer";
 import Image from "next/image";
 import React from "react";
 
 const Individual = () => {
   return (
-    <>
+    <div className="flex flex-col">
       <div className="bg-black flex flex-row">
         <div className="flex flex-col w-1/2 p-8 justify-between">
           <div className="flex flex-col">
@@ -48,11 +49,12 @@ const Individual = () => {
             </div>
           </div>
         </div>
-        <div className="w-1/2">
+        <div className="w-1/2 h-80">
           <Chat_box />
         </div>
       </div>
-    </>
+      <Disclaimer/>
+    </div>
   );
 };
 
