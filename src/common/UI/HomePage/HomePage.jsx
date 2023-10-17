@@ -13,10 +13,8 @@ import Common_Button from "@/common/components/Common_Button";
 
 const HomePage = () => {
   const [showBook, setShowBook] = useState(true)
-  const [showPostSolve, setShowPostSolve] = useState(false)
   const handleClick=()=>{
     setShowBook(false)
-    setShowPostSolve(true)  
   }
   return (
     <div className="pt-[41px]">
@@ -58,7 +56,7 @@ const HomePage = () => {
               Up.
             </p>
             </div>}
-            {showPostSolve && <div className="flex flex-col"><div className="flex w-full justify-between">
+            {(!showBook) && <div className="flex flex-col"><div className="flex w-full justify-between">
               <Link className="w-1/2 pr-2" href="/solve-question">
                 <Common_Button
                   colour={"bg-[#1BEFA0]"}
@@ -76,10 +74,8 @@ const HomePage = () => {
                 </Common_Button>
               </Link>
             </div>
-            <p className=" w-full text-center text-transparent bg-transparent">
-               Remaining! Hurry
-              Up.
-            </p></div>}
+            <div className="w-full h-[24px] text-center text-transparent bg-transparent">
+            </div></div>}
           </div>
           <Image src={rightImage}></Image>
         </div>
