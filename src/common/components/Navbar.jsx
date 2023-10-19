@@ -3,7 +3,7 @@ import React from 'react'
 
 const Navbar = () => (
     
-<nav class="bg-gray-950 border-gray-200  justify-center items-center py-5">
+<nav class="bg-gray-950 border-gray-200  justify-center items-center py-5 sticky top-0 z-50">
 
   <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
 
