@@ -9,11 +9,21 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@babel/runtime": "^7.23.2",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.14.14",
+    "@mui/lab": "^5.0.0-alpha.149",
+    "@mui/material": "^5.14.14",
+    "@mui/system": "^5.14.14",
+    "flowbite-react": "^0.6.4",
     "next": "latest",
-    "react": "latest",
+    "react": "^18.2.0",
     "react-dom": "latest",
     "react-icon": "^1.0.0",
-    "react-icons": "^4.11.0"
+    "react-icons": "^4.11.0",
+    "react-slider": "^2.0.6",
+    "react-tabs": "^6.0.2"
   },
   "devDependencies": {
     "autoprefixer": "latest",

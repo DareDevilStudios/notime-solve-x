@@ -31,21 +31,18 @@ const QuestionBox = () => {
           children={"DUE ON 25 OCT"}
         />
       </div>
-
-       
-      </div>
       <div className="flex flex-col gap-5">
-          <Common_Button
-            textcolour="text-[#0C0C0C]"
-            colour={"bg-[#FFFCF9]"}
-            children={"VIEW MORE"}
-          />
-          <Common_Button
-            textcolour="text-[#0C0C0C]"
-            colour={"bg-[#1BEFA0]"}
-            children={"SOLVE QUERY"}
-          />
-        </div>
+        <Common_Button
+          textcolour="text-[#0C0C0C]"
+          colour={"bg-[#FFFCF9]"}
+          children={"VIEW MORE"}
+        />
+        <Common_Button
+          textcolour="text-[#0C0C0C]"
+          colour={"bg-[#1BEFA0]"}
+          children={"SOLVE QUERY"}
+        />
+      </div>
     </div>
   );
 };

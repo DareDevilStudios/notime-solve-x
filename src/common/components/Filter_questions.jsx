@@ -5,7 +5,7 @@ const Filter_questions = () => {
   return (
     <div className="bg-black h-[4rem] my-8">
       <form className="w-full h-full flex items-center gap-12 justify-center">
-        <div class="flex py-2 items-center justify-center gap-x-3  pointer-events-none bg-white bg-opacity-[12%] px-3 rounded-md">
+        <div class="flex py-2 h-12 items-center justify-center gap-x-3   bg-gray-900 px-3 rounded-md">
           <svg
             class="w-2.5 h-4 text-gray-500"
             aria-hidden="true"
@@ -23,13 +23,12 @@ const Filter_questions = () => {
           </svg>
 
           <input
-            type="search"
-            id="default-search"
-            class="w-[18rem] rounded bg-transparent"
+            type="text"
+            className="w-[18rem] bg-gray-900   text-gray-600  rounded bg-transparent"
             placeholder="Search"
           />
         </div>
-        <select className="p-2.5 text-white w-[18rem] bg-white bg-opacity-[12%] rounded ">
+        <select className=" p-3 w-[18rem]    h-12 text-white   bg-gray-900 rounded ">
           <option>HTML</option>
           <option>Tailwindcss</option>
           <option>Javascript</option>
@@ -37,7 +36,7 @@ const Filter_questions = () => {
           <option>React</option>
           <option>next</option>
         </select>
-        <select className="px-3 py-2 w-[19rem] text-white     bg-white   bg-opacity-[12%] rounded">
+        <select className="h-12 text-white p-2.5 w-[18rem]  bg-gray-900 rounded ">
           <option>25 Coins</option>
           <option>50 Coins</option>
           <option>75 Coins</option>
@@ -47,8 +46,9 @@ const Filter_questions = () => {
         <input
           type="date"
           id="date"
-          class="block px-3 py-1 w-[19rem] text-white bg-white bg-opacity-[12%] rounded calendar-icon-white"
+          class=" px-3 py-1 w-[18rem] text-white h-12 bg-gray-900 rounded calendar-icon-white"
         />
+         
       </form>
     </div>
   );
