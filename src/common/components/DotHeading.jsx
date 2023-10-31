@@ -2,7 +2,7 @@ import React from 'react';
 
 const DotHeading = ({title}) => {
   return (
-    <div className="rounded-lg w-max bg-transparent" >
+    <div className="w-max rounded-lg  bg-transparent" >
       <div className="flex items-center">
         {/* First ellipse with color #EF3E36 */}
         <div className="w-3 h-3 bg-red-500 rounded-full mr-2"></div>
